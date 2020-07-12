@@ -1,0 +1,34 @@
+{
+  "name": "stripe-nodejs",
+  "version": "1.0.0",
+  "description": "A simple Node.js application which consumes the Stripe API for integrating payments",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajatSablok/stripe-nodejs.git"
+  },
+  "keywords": [
+    "stripe",
+    "payments",
+    "nodejs"
+  ],
+  "author": "Rajat Sablok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RajatSablok/stripe-nodejs/issues"
+  },
+  "homepage": "https://github.com/RajatSablok/stripe-nodejs#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "stripe": "^8.69.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
